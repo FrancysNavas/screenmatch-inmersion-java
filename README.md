@@ -6,8 +6,8 @@ El desafío trata sobre la creación de una plataforma de streaming con código 
 
 Configuración del ambiente
 
-JDK 17 (Java Develonment Kit)
-IDE Intellij Community (Integrated Development Environment)
+- JDK 17 (Java Develonment Kit)
+- IDE Intellij Community (Integrated Development Environment)
 
 Desafío
 
