@@ -39,12 +39,22 @@ public class Main {
         }
 
         System.out.println("======= Evaluación por parte de usuarios:  ========");
+        /*
         for (int i = 0; i < 3; i++) {
             Scanner teclado = new Scanner(System.in);
             System.out.println("Usuario N° "+(i+1)+ ": Ingresa la nota que le darías a la película: ");
             double notaMatrix = teclado.nextDouble();
             mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
 
+        }*/
+
+        int cont = 0;
+        while (cont < 3){
+            Scanner teclado = new Scanner(System.in);
+            System.out.println("Usuario N°: Ingresa la nota que le darías a la película: ");
+            double notaMatrix = teclado.nextDouble();
+            cont++;
+            mediaEvaluacionUsuario = mediaEvaluacionUsuario + notaMatrix;
         }
 
         System.out.println("La media de la película " + nombrePelicula + " calculada por los usuarios es de: "+ mediaEvaluacionUsuario / 3);
